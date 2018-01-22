@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="16008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -38,6 +38,9 @@
 		</Item>
 		<Item Name="Sound Demo Support Files" Type="Folder">
 			<Item Name="Dynamic Dispatch Tester.vi" Type="VI" URL="../Sound Demo Support Files/Dynamic Dispatch Tester.vi"/>
+			<Item Name="sample.wav" Type="Document" URL="../Sound Demo Support Files/sample.wav"/>
+			<Item Name="Sound XML File Creator.vi" Type="VI" URL="../Sound Demo Support Files/Sound XML File Creator.vi"/>
+			<Item Name="sounds.xml" Type="Document" URL="../Sound Demo Support Files/sounds.xml"/>
 		</Item>
 		<Item Name="Application.lvclass" Type="LVClass" URL="../Application/Application.lvclass"/>
 		<Item Name="Sound Demo.lvclass" Type="LVClass" URL="../Sound Demo/Sound Demo.lvclass"/>
@@ -148,6 +151,10 @@
 				<Item Name="WDT Append Waveforms CXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms CXT.vi"/>
 				<Item Name="WDT Append Waveforms CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms CDB.vi"/>
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
+				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
+				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 			</Item>
 			<Item Name="Visualizer.lvlib" Type="Library" URL="../Visualizer/Visualizer.lvlib"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
