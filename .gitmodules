@@ -1,0 +1,3 @@
+[submodule "SubTreeMergeTest"]
+	path = SubTreeMergeTest
+	url = https://github.com/ahartzell-sigma/SubTreeMergeTest.git
